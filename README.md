@@ -1,4 +1,15 @@
 # tasks_Application
+
+
+Step 1: You have to create the token using the POST /token API, Which will give you JWt as Bearer so this Bearer is used for authentication of other tasks API
+
+Step 2: Create POST /tasks  API the authentication and body required , for create task with the fiels name , status and descrption 
+	the uniqueness for name is mentained you to avaid the duplicate tasks
+ Step 3: You can get the perticular task by id in query param GET /tasks/:id API,
+
+ Step 4: You can get all task using the GET /tasks API
+
+ Step 5 : You can delete the perticular Task by DEELETE /tasks/:id API
 {
 	"info": {
 		"_postman_id": "5225a699-0542-4929-93b2-2d1d344035df",
