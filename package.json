@@ -1,0 +1,38 @@
+{
+  "name": "tasks_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ts-node --inspect index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaurishankarTambave/tasks_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaurishankarTambave/tasks_Application/issues"
+  },
+  "homepage": "https://github.com/GaurishankarTambave/tasks_Application#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/jsonwebtoken": "^9.0.8",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-cache": "^5.1.2",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
